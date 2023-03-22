@@ -4,10 +4,12 @@
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build && npm run copy-assets",
+    "copy-assets": "cd ./nft-assets && copyfiles -a '**' '../dist'",
     "preview": "vite preview"
   },
   "dependencies": {
+    "copyfiles": "^2.4.1",
     "@hookstate/core": "^4.0.0-rc21",
     "@hookstate/devtools": "4.0.0-rc21",
     "@orbs-network/ton-access": "^2.2.2",
