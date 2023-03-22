@@ -1,0 +1,31 @@
+{
+  "name": "DogX #296",
+  "description": "DogX — new forms of life on your planet. 3555 individuals are going to your planet. Don't worry, maybe we'll give you a game, or maybe new technology... It's up to you puppies.",
+  "image": "https://badass-site.000webhostapp.com/nft_images/96.png",
+  "dna": "5bf5f02366f4040635d393c424e0eb0e4cbed546",
+  "edition": 96,
+  "date": 1679247411205,
+  "attributes": [
+    {
+      "trait_type": "Landscape",
+      "value": "LD 5"
+    },
+    {
+      "trait_type": "Colorbody",
+      "value": "BD 9"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "ED 17"
+    },
+    {
+      "trait_type": "Hats",
+      "value": "HD 21"
+    },
+    {
+      "trait_type": "Clothing",
+      "value": "CD 10"
+    }
+  ],
+  "compiler": "HashLips Art Engine mod by VASYAN PFR"
+}
