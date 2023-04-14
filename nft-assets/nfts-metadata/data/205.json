@@ -9,27 +9,27 @@
     },
     {
       "trait_type": "Landscape",
-      "value": ""
+      "value": null
     },
     {
       "trait_type": "Colorbody",
-      "value": ""
+      "value": null
     },
     {
       "trait_type": "Face",
-      "value": ""
+      "value": null
     },
     {
       "trait_type": "Eyes",
-      "value": ""
+      "value": null
     },
     {
       "trait_type": "Hats",
-      "value": ""
+      "value": null
     },
     {
       "trait_type": "Clothing",
-      "value": ""
+      "value": null
     }
   ]
 }
