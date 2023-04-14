@@ -6,6 +6,30 @@
     {
       "trait_type": "1/1",
       "value": "SkullDogX"
+    },
+    {
+      "trait_type": "Landscape",
+      "value": ""
+    },
+    {
+      "trait_type": "Colorbody",
+      "value": ""
+    },
+    {
+      "trait_type": "Face",
+      "value": ""
+    },
+    {
+      "trait_type": "Eyes",
+      "value": ""
+    },
+    {
+      "trait_type": "Hats",
+      "value": ""
+    },
+    {
+      "trait_type": "Clothing",
+      "value": ""
     }
   ]
 }
