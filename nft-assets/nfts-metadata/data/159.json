@@ -1,0 +1,31 @@
+{
+    "name": "DogX #160",
+    "description": "DogX — new forms of life on your planet. 3555 individuals are going to your planet. Don't worry, maybe we'll give you a game, or maybe new technology... It's up to you puppies.",
+    "image": "https://dogx-nft.github.io/batch-minter/nft-assets/nfts/160.png",
+    "dna": "bb9bfd926522a8082adb9d3e933dc2ae27f0d587",
+    "edition": 160,
+    "date": 1679247430012,
+    "attributes": [
+        {
+            "trait_type": "Landscape",
+            "value": "LD"
+        },
+        {
+            "trait_type": "Colorbody",
+            "value": "BD 3"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "ED 23"
+        },
+        {
+            "trait_type": "Hats",
+            "value": "HD 10"
+        },
+        {
+            "trait_type": "Clothing",
+            "value": "CD 18"
+        }
+    ],
+    "compiler": "HashLips Art Engine mod by VASYAN PFR"
+}

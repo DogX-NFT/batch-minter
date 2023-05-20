@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "parse-jsons": "del-cli --force dist && tsc && node dist/jsons.js",
+    "parse-images": "del-cli --force dist && tsc && node dist/images.js"
+  },
+  "dependencies": {
+    "fs": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "@types/node": "^20.2.1",
+    "typescript": "^5.0.4"
+  }
+}
