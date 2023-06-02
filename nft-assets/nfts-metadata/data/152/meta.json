@@ -1,0 +1,32 @@
+{
+    "name": "DogX #151",
+    "description": "DogX — new forms of life on your planet. 9555 individuals are going to your planet. Don't worry, maybe we'll give you a game, or maybe new technology... It's up to you puppies.",
+    "marketplace": "getgems.io",
+    "attributes": [
+        {
+            "trait_type": "Clothing",
+            "value": "CD 34"
+        },
+        {
+            "trait_type": "Colorbody",
+            "value": "BD 9"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "ED 7"
+        },
+        {
+            "trait_type": "Face",
+            "value": "FD 26"
+        },
+        {
+            "trait_type": "Hats",
+            "value": "HD 6"
+        },
+        {
+            "trait_type": "Landscape",
+            "value": "LD 9"
+        }
+    ],
+    "image": "https://s.getgems.io/nft/c/63a2ea4fd187f681ba40ff77/152/image.png"
+}
