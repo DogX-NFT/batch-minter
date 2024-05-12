@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "parse-jsons": "del-cli --force dist && tsc && node dist/jsons.js",
+    "jsons": "del-cli --force dist && tsc && node dist/jsons.js",
     "parse-images": "del-cli --force dist && tsc && node dist/images.js"
   },
   "dependencies": {
