@@ -1,31 +1,31 @@
 {
-  "name": "DogX #352",
-  "description": "DogX — new forms of life on your planet. 3555 individuals are going to your planet. Don't worry, maybe we'll give you a game, or maybe new technology... It's up to you puppies.",
-  "image": "https://badass-site.000webhostapp.com/nft_images/152.png",
-  "dna": "d069f0adf2f68d4cdf5d5b8c307786aa4dceefc1",
-  "edition": 152,
-  "date": 1679247427663,
-  "attributes": [
-    {
-      "trait_type": "Landscape",
-      "value": "LD 13"
-    },
-    {
-      "trait_type": "Colorbody",
-      "value": "BD 3"
-    },
-    {
-      "trait_type": "Eyes",
-      "value": "ED 17"
-    },
-    {
-      "trait_type": "Hats",
-      "value": "HD 5"
-    },
-    {
-      "trait_type": "Clothing",
-      "value": "CD 12"
-    }
-  ],
-  "compiler": "HashLips Art Engine mod by VASYAN PFR"
+    "name": "DogX #352",
+    "description": "DogX — new forms of life on your planet. 3555 individuals are going to your planet. Don't worry, maybe we'll give you a game, or maybe new technology... It's up to you puppies.",
+    "image": "https://dogx-nft.github.io/batch-minter/nft-assets/nfts/359.png",
+    "dna": "d069f0adf2f68d4cdf5d5b8c307786aa4dceefc1",
+    "edition": 152,
+    "date": 1679247427663,
+    "attributes": [
+        {
+            "trait_type": "Landscape",
+            "value": "LD 13"
+        },
+        {
+            "trait_type": "Colorbody",
+            "value": "BD 3"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "ED 17"
+        },
+        {
+            "trait_type": "Hats",
+            "value": "HD 5"
+        },
+        {
+            "trait_type": "Clothing",
+            "value": "CD 12"
+        }
+    ],
+    "compiler": "HashLips Art Engine mod by VASYAN PFR"
 }
