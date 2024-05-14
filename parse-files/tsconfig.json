@@ -2,7 +2,10 @@
   "compilerOptions": {
     "module": "commonjs",
     "target": "es6",
-    "lib": ["ES2022"],
+    "lib": [
+      "ES2022",
+      "dom"
+    ],
     "moduleResolution": "node",
     "sourceMap": true,
     "outDir": "dist",
@@ -11,7 +14,7 @@
     "experimentalDecorators": true,
     "strict": true,
     "esModuleInterop": true,
-    "strictPropertyInitialization": false,
+    "strictPropertyInitialization": false
   },
   "include": ["src/**/*"],
 }

@@ -2,9 +2,9 @@ import * as fs from "fs";
 import axios from "axios";
 import path from "path";
 
+main();
 
 async function main() {
-
     const files = (await new Promise<string[]>((res, rej) => fs.readdir("../nft-assets/nfts-metadata/data/", (err, files) => {
         if (err) rej(err);
         res(files);
@@ -21,19 +21,35 @@ async function main() {
             if (e) console.error(e)
         })
     }
-
-    // const arr = [...new Array(208)];
-    // for (let i = 0; i < arr.length; i++) {
-    //     const { data } = await axios.get(`https://s.getgems.io/nft/c/63a2ea4fd187f681ba40ff77/${i}/meta.json`)
-    //     const dir = `../nft-assets/nfts-metadata/data/${i}`;
-    //
-    //     if (!fs.existsSync(dir)) {
-    //         fs.mkdirSync(dir);
-    //     }
-    //
-    //     fs.writeFile(`${dir}/meta.json`, JSON.stringify(data, null, 4), (e) => {
-    //         if (e) console.error(e)
-    //     })
-    // }
 }
-main();
+
+async function saveGGMetaAndImages() {
+    const arr = [...new Array(208)];
+
+    for (let i = 0; i < arr.length; i++) {
+        const { data } = await axios.get(`https://s.getgems.io/nft/c/63a2ea4fd187f681ba40ff77/${i}/meta.json`)
+        const dir = `../nft-assets/nfts-metadata/data/${i}`;
+
+        if (!fs.existsSync(dir)) {
+            fs.mkdirSync(dir);
+        }
+
+        fs.writeFile(`${dir}/meta.json`, JSON.stringify(data, null, 4), (e) => {
+            if (e) console.error(e)
+        })
+    }
+
+    for (let i = 0; i < arr.length; i++) {
+        await downloadImage(`https://s.getgems.io/nft/c/63a2ea4fd187f681ba40ff77/${i}/image.png`, `../nft-assets/nfts-gg/${i}.png`)
+    }
+}
+
+async function downloadImage(url: string, imagePath: string) {
+    const response = await axios({ url, method: 'GET', responseType: 'stream' });
+    const writer = fs.createWriteStream(imagePath);
+    response.data.pipe(writer);
+    return new Promise((resolve, reject) => {
+        writer.on('finish', resolve);
+        writer.on('error', reject)
+    })
+}
