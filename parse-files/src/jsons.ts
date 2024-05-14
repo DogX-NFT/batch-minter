@@ -2,7 +2,7 @@ import * as fs from "fs";
 import axios from "axios";
 import path from "path";
 
-main();
+parseJsonToJsons();
 
 async function main() {
     const files = (await new Promise<string[]>((res, rej) => fs.readdir("../nft-assets/nfts-metadata/data/", (err, files) => {
@@ -18,6 +18,20 @@ async function main() {
         json.image = `https://dogx-nft.github.io/batch-minter/nft-assets/nfts/${file.split(".json")[0]}.png`
 
         fs.writeFile(path, JSON.stringify(json, null, 4), (e) => {
+            if (e) console.error(e)
+        })
+    }
+}
+
+async function parseJsonToJsons() {
+    let jsons = JSON.parse(fs.readFileSync("../DogXCompleted/meta.json", 'utf8')) as any[];
+
+    for(const i in jsons) {
+        const json = jsons[i];
+
+        json.image = `${i}.png`
+
+        fs.writeFile(`../DogXCompleted/parsed-meta/${i}.json`, JSON.stringify(json, null, 4), (e) => {
             if (e) console.error(e)
         })
     }
