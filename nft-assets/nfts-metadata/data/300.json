@@ -1,11 +1,11 @@
 {
-    "name": "ScullDogX",
-    "description": "DogX — new forms of life on your planet. 3555 individuals are going to your planet. Don't worry, maybe we'll give you a game, or maybe new technology... It's up to you puppies.",
-    "image": "https://dogx-nft.github.io/batch-minter/nft-assets/nfts/300.png",
-    "attributes": [
-        {
-            "trait_type": "1/1",
-            "value": "ScullDogX"
-        }
-    ]
+  "name": "ScullDogX",
+  "description": "DogX — new forms of life on your planet. 3555 individuals are going to your planet. Don't worry, maybe we'll give you a game, or maybe new technology... It's up to you puppies.",
+  "image": "https://dogx-nft.github.io/batch-minter/nft-assets/nfts/InProcess.png",
+  "attributes": [
+    {
+      "trait_type": "1/1",
+      "value": "ScullDogX"
+    }
+  ]
 }
