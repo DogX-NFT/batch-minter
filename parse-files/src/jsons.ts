@@ -24,7 +24,7 @@ async function main() {
 }
 
 async function parseJsonToJsons() {
-    let jsons = JSON.parse(fs.readFileSync("../DogXCompleted/meta.json", 'utf8')) as any[];
+    let jsons = JSON.parse(fs.readFileSync("../../DogXCompleted/meta.json", 'utf8')) as any[];
 
     for(const i in jsons) {
         const json = jsons[i];
